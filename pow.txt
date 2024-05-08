@@ -1,0 +1,8 @@
+The flask server itself start elections with a vote for a fake Candidate, But not become block, Similar to cryptocurrency The usual voters should act like miners to validate the starting vote of server, In return they get gas as a vote. i.e, the reward for mining. 
+
+To avoid selective candidate's vote validations or to hide the cadidates vote count Every node should encypt their vote before making it as block. The key, timestamp of vote should be shared with flask server, So at the end of election the server takes a copy of distributed blockcahin and do decypt the cadidate names on each block with stored keys with respect to timestamp. 
+
+Here, 2 things are matter. First Is prrof of work only allows any voters (here miners) can do mining only once and Never again.
+Second, The encryption of candidate name on vote have a timestamp but his vote may or may not be mined first or latest vote get mined first. This cause sequence error when server tries to decrypt.
+
+So, Surely no one should be allowed to mine for second time such strong the proof of work shold be. Therefore the each one get a sigle chance of vote.
